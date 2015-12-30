@@ -16,7 +16,7 @@ class Tag extends Model
         'name'
     ];
 
-    public function tagable()
+    public function taggable()
     {
         return $this->morphTo();
     }
