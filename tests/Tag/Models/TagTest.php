@@ -4,6 +4,8 @@ namespace TrezeVel\Tag\Tests\Models;
 
 use TrezeVel\Tag\Models\Tag;
 use TrezeVel\Tag\Tests\AbstractTestCase;
+use Illuminate\Validation\Validator;
+use Mockery as m;
 
 /**
 * Model de teste da tag
